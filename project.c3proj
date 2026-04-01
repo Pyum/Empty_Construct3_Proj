@@ -1,96 +1,14 @@
 {
 	"projectFormatVersion": 1,
 	"savedWithRelease": 47603,
-	"name": "Bomberman",
+	"name": "New project",
 	"runtime": "c3",
 	"useWorker": "auto",
 	"bundleAddons": false,
-	"usedAddons": [
-		{
-			"type": "plugin",
-			"id": "Keyboard",
-			"name": "Keyboard",
-			"author": "Scirra",
-			"bundled": false
-		},
-		{
-			"type": "plugin",
-			"id": "Particles",
-			"name": "Particles",
-			"author": "Scirra",
-			"bundled": false
-		},
-		{
-			"type": "plugin",
-			"id": "Sprite",
-			"name": "Sprite",
-			"author": "Scirra",
-			"bundled": false
-		},
-		{
-			"type": "plugin",
-			"id": "Tilemap",
-			"name": "Tilemap",
-			"author": "Scirra",
-			"bundled": false
-		},
-		{
-			"type": "behavior",
-			"id": "Flash",
-			"name": "Flash",
-			"author": "Scirra",
-			"bundled": false
-		},
-		{
-			"type": "behavior",
-			"id": "TileMovement",
-			"name": "Tile movement",
-			"author": "Scirra",
-			"bundled": false
-		},
-		{
-			"type": "behavior",
-			"id": "Timer",
-			"name": "Timer",
-			"author": "Scirra",
-			"bundled": false
-		},
-		{
-			"type": "behavior",
-			"id": "Tween",
-			"name": "Tween",
-			"author": "Scirra",
-			"bundled": false
-		},
-		{
-			"type": "behavior",
-			"id": "solid",
-			"name": "Solid",
-			"author": "Scirra",
-			"bundled": false
-		},
-		{
-			"type": "effect",
-			"id": "warpobject",
-			"name": "Warp object",
-			"author": "Scirra",
-			"bundled": false
-		}
-	],
-	"uniqueId": "gtzf1k6uhna",
+	"usedAddons": [],
+	"uniqueId": "pe7zbutq0xm",
 	"objectTypes": {
-		"items": [
-			"Ground",
-			"Walls",
-			"Player",
-			"Keyboard",
-			"Dust",
-			"Bomb",
-			"Flame",
-			"Enemy",
-			"BreakableWall",
-			"FlameUp"
-		],
+		"items": [],
 		"subfolders": []
 	},
 	"functionsName": "Functions",
@@ -102,10 +20,7 @@
 	},
 	"layouts": {
 		"items": [
-			"Layout 1",
-			"Layout 2",
-			"Objects",
-			"Layout 3"
+			"Layout 1"
 		],
 		"subfolders": []
 	},
@@ -139,41 +54,9 @@
 		"icon": {
 			"items": [
 				{
-					"name": "icon-128.png",
-					"type": "image/png",
-					"sid": 654812223549312,
-					"icon-info": {
-						"purpose": "app-icon"
-					}
-				},
-				{
-					"name": "icon-256.png",
-					"type": "image/png",
-					"sid": 691753402074281,
-					"icon-info": {
-						"purpose": "app-icon"
-					}
-				},
-				{
-					"name": "icon-512.png",
-					"type": "image/png",
-					"sid": 346375555301601,
-					"icon-info": {
-						"purpose": "app-icon"
-					}
-				},
-				{
-					"name": "loading-logo.png",
-					"type": "image/png",
-					"sid": 144485128798268,
-					"icon-info": {
-						"purpose": "loading-logo"
-					}
-				},
-				{
 					"name": "icon-16.png",
 					"type": "image/png",
-					"sid": 190743980568040,
+					"sid": 213485914873480,
 					"icon-info": {
 						"purpose": "app-icon"
 					}
@@ -181,7 +64,23 @@
 				{
 					"name": "icon-32.png",
 					"type": "image/png",
-					"sid": 156326463531825,
+					"sid": 747453916222543,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "icon-128.png",
+					"type": "image/png",
+					"sid": 728747665688758,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "icon-256.png",
+					"type": "image/png",
+					"sid": 525874172374439,
 					"icon-info": {
 						"purpose": "app-icon"
 					}
@@ -189,9 +88,25 @@
 				{
 					"name": "icon-64.png",
 					"type": "image/png",
-					"sid": 836077995629890,
+					"sid": 480938356550632,
 					"icon-info": {
 						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "icon-512.png",
+					"type": "image/png",
+					"sid": 731568950284871,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "loading-logo.png",
+					"type": "image/png",
+					"sid": 721013799618265,
+					"icon-info": {
+						"purpose": "loading-logo"
 					}
 				}
 			],
@@ -214,7 +129,9 @@
 		]
 	},
 	"flowcharts": {
-		"items": [],
+		"items": [
+			"Flowchart 1"
+		],
 		"subfolders": []
 	},
 	"models3d": {
@@ -230,7 +147,7 @@
 		"authorWebsite": "",
 		"appId": "",
 		"pixelRounding": false,
-		"zAxisScale": "normalized",
+		"zAxisScale": "regular",
 		"fov": 0.7853981633974483,
 		"useLoaderLayout": false,
 		"fullscreenMode": "letterbox-scale",
