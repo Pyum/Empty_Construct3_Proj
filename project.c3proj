@@ -103,6 +103,7 @@
 	"layouts": {
 		"items": [
 			"Layout 1",
+			"Layout 2",
 			"Objects"
 		],
 		"subfolders": []
