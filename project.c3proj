@@ -5,20 +5,10 @@
 	"runtime": "c3",
 	"useWorker": "auto",
 	"bundleAddons": false,
-	"usedAddons": [
-		{
-			"type": "plugin",
-			"id": "Text",
-			"name": "Text",
-			"author": "Scirra",
-			"bundled": false
-		}
-	],
+	"usedAddons": [],
 	"uniqueId": "pe7zbutq0xm",
 	"objectTypes": {
-		"items": [
-			"Hi"
-		],
+		"items": [],
 		"subfolders": []
 	},
 	"functionsName": "Functions",
